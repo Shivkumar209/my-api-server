@@ -36,4 +36,4 @@ def post_data():
     return jsonify({"status": "सफलतापूर्वक डेटा सेव हो गया!", "data": database["data"]})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=
